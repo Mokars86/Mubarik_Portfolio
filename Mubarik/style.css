@@ -1,0 +1,81 @@
+
+.logo{
+    position: absolute ;
+    top:20px;
+    width :50px;
+    height: 100px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.dark-mode-btn{
+    position: absolute;
+    top: 20px;
+    right: 230px;
+}
+
+.dark-mode-btn img{
+    width: 50px;
+    height: 50px;
+}
+.curved-navbar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width:50%;
+    opacity:0.7;
+    margin: 0 auto;
+}
+
+.curved-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.curved-navbar li {
+    margin-right: 20px;
+}
+
+.curved-navbar a {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.curved-navbar a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.curved-navbar .active a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn{
+    position : absolute;
+    top :20px;
+    right :50px;
+    border: 2px solid black;
+    border-radius:25px;
+    padding: 10px;
+}
+
+.btn a{
+    text-decoration:none;
+    font-size:20px;
+    font-style:bold;
+    color : black;
+    text-align: center ;
+}
+
